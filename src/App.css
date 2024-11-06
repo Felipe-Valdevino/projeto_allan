@@ -1,0 +1,86 @@
+#quote-box {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: #000000;
+  margin-top: 300px;
+}
+
+#text {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  margin: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+.quote::after {
+  content: '"';
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+}
+
+#tweet-quote {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: color 0.3s;
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+#tweet-quote:hover {
+  color: #0d8bec;
+}
+
+#tweet-quote img {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+body {
+  transition: background-color 1s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+#quote-box {
+  transition: color 1s ease;
+}
+
+button {
+  transition: background-color 1s ease, color 1s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  transition: color 1s ease;
+}
